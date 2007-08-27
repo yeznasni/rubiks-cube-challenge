@@ -14,8 +14,7 @@ _Global Game parameters can apply to any mode._
 _Time and move count both decrease rewards_
   * Create X shape on one side 
   * Create X shape amongst the sides
-  * Perform X precise rotations
-  * 
+  * Perform X specific rotations
 
 
 = Modes =
