@@ -9,12 +9,5 @@ This wiki is dedicated to the Rubik's Cube multiplayer game being written for CE
   * Jason Spruill
   * [IdeasOfSteven Steven Shofner]
 
-
-
-= Challenge Ideas =
- *  Colors Swap
- *  Colors Become Hues Of A Single Color
- *  Point Of View Shifts
-
-
-
+= Potential References = 
+[http://www.bluerosegames.com/brg/xna101.aspx BlueRose XNA 101 Tutorials]
