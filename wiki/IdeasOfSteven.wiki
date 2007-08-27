@@ -1,3 +1,4 @@
+[MainPage]
 #summary A compilation of Steven's preliminary ideas, good and otherwise.
 
 
