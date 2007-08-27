@@ -1,7 +1,7 @@
-#summary One-sentence summary of this page.
+#summary The entry page for the Rubik's Cube Challenge
 
 = Introduction =
-
+This wiki is dedicated to the Rubik's Cube multiplayer game being written for CECS 550.
 
 = Members =
   * Chris Boyle
@@ -15,7 +15,6 @@
  *  Colors Swap
  *  Colors Become Hues Of A Single Color
  *  Point Of View Shifts
-
 
 
 
