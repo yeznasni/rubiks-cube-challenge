@@ -1,0 +1,34 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+This is the Wiki page for the Rubik's Cube Challenge.
+
+
+= Details =
+/*
+(this will be commented as soon as someone figures out how)
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+*/
+
+= Members =
+  * Chris Boyle
+  * Chris Lockhart
+  * Jason Spruill
+  * Steven Shofner
+
+
+
+= Challenge Ideas =
+*  Colors Swap
+*  Colors Become Hues Of A Single Color
+*  Point Of View Shifts
+
+
+
+
