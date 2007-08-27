@@ -1,0 +1,49 @@
+#summary A rough model to represent the data of the cube.
+
+= Representation =
+The following an idea for the representation of the cube that Steve has been kicking around inside his head (where there is lots of empty space to kick ideas around).
+
+`char[row, column, face] cubeContents;`
+
+So in a solved 3x3 Rubik's cube we might have for the red side:
+{{{
+cubeContents[1,1,1] = 'r';
+cubeContents[2,1,1] = 'r';
+cubeContents[3,1,1] = 'r';
+cubeContents[1,2,1] = 'r';
+cubeContents[2,2,1] = 'r';
+cubeContents[3,2,1] = 'r';
+cubeContents[1,3,1] = 'r';
+cubeContents[2,3,1] = 'r';
+cubeContents[3,3,1] = 'r';
+}}}
+
+For a solved Rubik's cube we might have for the blue side:
+{{{
+cubeContents[1,1,4] = 'b';
+cubeContents[2,1,4] = 'b';
+cubeContents[3,1,4] = 'b';
+cubeContents[1,2,4] = 'b';
+cubeContents[2,2,4] = 'b';
+cubeContents[3,2,4] = 'b';
+cubeContents[1,3,4] = 'b';
+cubeContents[2,3,4] = 'b';
+cubeContents[3,3,4] = 'b';
+}}}
+
+In table form this might look like:
+
+|| *face 1* || *col1* || *col2* || *col3* ||
+|| *row 1* || red || red || red ||
+|| *row 2* || red || red || red ||
+|| *row 3* || red || red || red ||
+
+
+
+|| *face 4* || *col1* || *col2* || *col3* ||
+|| *row 1* || blue || blue || blue ||
+|| *row 2* || blue || blue || blue ||
+|| *row 3* || blue || blue || blue ||
+
+
+
