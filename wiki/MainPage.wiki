@@ -1,7 +1,7 @@
 #summary The entry page for the Rubik's Cube Challenge
 
 = Introduction =
-This wiki is dedicated to the Rubik's Cube multiplayer game being written for CECS 550.
+This wiki is dedicated to the Rubik's Cube multiplayer game being written for CECS 550.  We are using Google Code as our host, which provides 100MB of storage space.
 
 = Members =
   * Chris Boyle
