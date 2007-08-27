@@ -7,7 +7,7 @@ This wiki is dedicated to the Rubik's Cube multiplayer game being written for CE
   * Chris Boyle
   * Chris Lockhart
   * Jason Spruill
-  * [StevenPage Steven Shofner]
+  * [IdeasOfSteven Steven Shofner]
 
 
 
@@ -15,7 +15,6 @@ This wiki is dedicated to the Rubik's Cube multiplayer game being written for CE
  *  Colors Swap
  *  Colors Become Hues Of A Single Color
  *  Point Of View Shifts
-
 
 
 
