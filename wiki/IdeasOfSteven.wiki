@@ -18,6 +18,7 @@ _Global Game parameters can apply to any mode._
   * Challenge Mode
   * Backdrop
   * Picture Cubelets
+  * Color Duplication
 
 = Single-Player Modes = 
   * Scenario (complete a starting configuration within a specified metric)
