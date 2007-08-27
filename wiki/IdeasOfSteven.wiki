@@ -1,4 +1,4 @@
-#summary A compilation of Steven's preliminary ideas, good and otherwise
+#summary A compilation of Steven's preliminary ideas, good and otherwise.
 
 
 
@@ -37,3 +37,4 @@ _Events to mix up a Rubik's Cube game, changing the game experience without chan
 
 
 
+[MainPage]
