@@ -3,6 +3,9 @@
 = Representation =
 The following an idea for the representation of the cube that Steve has been kicking around inside his head (where there is lots of empty space to kick ideas around).
 
+[MainPage]
+[IdeasOfSteven]
+
 `char[row, column, face] cubeContents;`
 
 So in a solved 3x3 Rubik's cube we might have for the red side:
@@ -47,3 +50,5 @@ In table form this might look like:
 
 
 
+[MainPage]
+[IdeasOfSteven]
