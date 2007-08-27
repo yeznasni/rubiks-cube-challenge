@@ -1,8 +1,14 @@
-#summary A compilation of Steven's preliminary ideas, good and otherwise.
+#summary A compilation of preliminary ideas, good and otherwise.
 [MainPage]
 
 
 Steven's very rough cube [StevenCubeModel representation model]
+
+
+= Modes =
+ * Time Attack (competing based on real-time elapsed)
+ * Move Battle (competing based on number of moves)
+ * Point Match (competing based on points, explained later)
 
 
 = Global Game Parameters =
@@ -13,17 +19,14 @@ _Global Game parameters can apply to any mode._
   * Backdrop
   * Picture Cubelets
 
+= Single-Player Modes = 
+  * Scenario (complete a starting configuration within a specified metric)
+
 = Pointmatch =
 _Time and move count both decrease rewards_
   * Create X shape on one side 
   * Create X shape amongst the sides
   * Perform X specific rotations
-
-
-= Modes =
- * Time Attack (competing based on real-time elapsed)
- * Move Battle (competing based on number of moves)
- * Point Match (competing based on points, explained later)
 
 = Challenge Mode =
 _Events to mix up a Rubik's Cube game, changing the game experience without changing the core game._
