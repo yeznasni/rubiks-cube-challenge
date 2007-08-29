@@ -1,0 +1,366 @@
+#summary This code could be possibly used to represent and manipulate the Rubik's cube.
+
+= Introduction =
+
+This code could be possibly used to represent and manipulate the Rubik's cube.
+
+
+= Details =
+
+*RubiksCube.cs*
+{{{
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Drawing;
+
+namespace RubiksCubeLibrary
+{
+    /// <summary>
+    /// The Rubiks Cube class provides internal repesentation of an actual Rubik's cube.
+    /// The functionality provides access to the individual Cublets to see where they 
+    /// are positioned and allows them to rotate according to the rules of the real cube.
+    /// </summary>
+    public class RubiksCube
+    {
+        /// <summary>
+        /// The different sides of a cube.
+        /// </summary>
+        public enum Side
+        {
+            Top, Bottom, Left, Right, Front, Back
+        }
+
+        /// <summary>
+        /// The amount a rubiks cube group can be rotated.
+        /// </summary>
+        public enum RotateAmt
+        {
+            PiOverTwo, Pi, TwoPiOverThree
+        }
+
+        /// <summary>
+        /// The internal representation of the Rubik's cube.
+        /// </summary>
+        private Cublet[,,] m_Cublets;
+
+        /// <summary>
+        /// Creates a new Rubik's cube object.  
+        /// </summary>
+        /// <param name="rows">The number of rows.</param>
+        /// <param name="cols">The number of columns.</param>
+        /// <param name="depth">The depth of the cube.</param>
+        public RubiksCube(int rows, int cols, int depth)
+        {
+            Init(rows, cols, depth);
+        }
+
+        /// <summary>
+        /// Allows access to the individual Cublets according to the 
+        /// side they are facing.
+        /// </summary>
+        /// <param name="row">The row.</param>
+        /// <param name="col">The column.</param>
+        /// <param name="side">The side the Cublet is facing.</param>
+        /// <returns>A Cublet in the cube.</returns>
+        public Cublet this[int row, int col, Side side]
+        {
+            get 
+            {
+                switch (side)
+                {
+                    case Side.Top:
+                        break;
+                    case Side.Bottom:
+                        break;
+                    case Side.Left:
+                        break;
+                    case Side.Right:
+                        break;
+                    case Side.Front:
+                        break;
+                    case Side.Back:
+                        break;
+                }
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Randomizes the Cublets in the Rubik's cube.  
+        /// </summary>
+        public void Randomize()
+        {
+        }
+
+        /// <summary>
+        /// Puts the Rubik's cube into it initial order.  This will make
+        /// the puzzle look like it is solved.
+        /// </summary>
+        public void PutInOrder()
+        {
+            Init(m_Cublets.GetUpperBound(0), m_Cublets.GetUpperBound(1), m_Cublets.GetUpperBound(2));
+        }
+
+        /// <summary>
+        /// Rotates a column on the Rubik's Cube.  The rotation is relative to the
+        /// side that is selected.
+        /// </summary>
+        /// <param name="col">The column to rotate.</param>
+        /// <param name="side">The side the start the rotation from.</param>
+        /// <param name="amt">The amount to rotate.</param>
+        public void RotateColumn(int col, Side side, RotateAmt amt)
+        {
+            switch (side)
+            {
+                case Side.Top:
+                    break;
+                case Side.Bottom:
+                    break;
+                case Side.Left:
+                    break;
+                case Side.Right:
+                    break;
+                case Side.Front:
+                    break;
+                case Side.Back:
+                    break;
+            }
+
+            if (amt == RotateAmt.Pi)
+                RotateColumn(col, side, RotateAmt.PiOverTwo);
+            else if (amt == RotateAmt.TwoPiOverThree)
+                RotateColumn(col, side, RotateAmt.Pi);
+        }
+
+        /// <summary>
+        /// Rotates a row on the Rubik's Cube.  The rotation is relative to the
+        /// side that is selected.
+        /// </summary>
+        /// <param name="row">The row to rotate.</param>
+        /// <param name="side">The side the start the rotation from.</param>
+        /// <param name="amt">The amount to rotate.</param>
+        public void RotateRow(int row, Side side, RotateAmt amt)
+        {
+            Cublet[] topTemp = GetRow(row, Side.Top);
+            Cublet[] bottomTemp = GetRow(row, Side.Bottom);
+            Cublet[] leftTemp = GetRow(row, Side.Left);
+            Cublet[] rightTemp = GetRow(row, Side.Right);
+            Cublet[] frontTemp = GetRow(row, Side.Front);
+            Cublet[] backTemp = GetRow(row, Side.Back);
+
+            switch (side)
+            {
+                case Side.Top:
+                    break;
+                case Side.Bottom:
+                    break;
+                case Side.Left:
+                    break;
+                case Side.Right:
+                    break;
+                case Side.Front:
+                    // Front -> Right -> Back -> Left -> Front
+                    break;
+                case Side.Back:
+                    break;
+            }
+
+            if (amt == RotateAmt.Pi)
+                RotateRow(row, side, RotateAmt.PiOverTwo);
+            else if (amt == RotateAmt.TwoPiOverThree)
+                RotateRow(row, side, RotateAmt.Pi);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="row"></param>
+        /// <param name="side"></param>
+        /// <returns></returns>
+        protected Cublet[] GetRow(int row, Side side)
+        {
+            Cublet[] cubes = null;
+
+            switch (side)
+            {
+                case Side.Top:
+                case Side.Bottom:
+                    break;
+                case Side.Front:
+                case Side.Back:
+                    cubes = new Cublet[m_Cublets.GetLength(1)];
+                    for (int j = 0; j < (m_Cublets.GetLength(1) - 1); ++j)
+                    {
+                        cubes[j] = m_Cublets[row, j, m_Cublets.GetUpperBound(2)];
+                    }
+                    break;
+                case Side.Left:
+                    break;
+                case Side.Right:
+                    break;
+            }
+
+            return cubes;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="col"></param>
+        /// <param name="side"></param>
+        /// <returns></returns>
+        protected Cublet[] GetCol(int col, Side side)
+        {
+            Cublet[] cubes = null;
+
+            return cubes;
+        }
+
+        /// <summary>
+        /// Initializes the Rubik's cube and gives it initial values.
+        /// </summary>
+        /// <param name="rows">the number of rows for the cube.</param>
+        /// <param name="cols">The number of columns for the cube.</param>
+        /// <param name="depth">The depth of the cube.</param>
+        /// <remarks>When finished the cube will look like it is solved.</remarks>
+        private void Init(int rows, int cols, int depth)
+        {
+            if (rows <= 0 || cols <= 0 || depth <= 0)
+                throw new Exception("The row/col/depth combination is invalid.");
+
+            m_Cublets = new Cublet[rows, cols, depth];
+
+            for (int k = 0; k < m_Cublets.GetLength(2); ++k)
+            {
+                for (int i = 0; i < m_Cublets.GetLength(0); ++i)
+                {
+                    for (int j = 0; j < m_Cublets.GetLength(1); ++j)
+                    {
+                        Cublet curCube = new Cublet();
+                        m_Cublets[i, j, k] = curCube;
+                        
+                        if (i == 0) // the top row
+                        {
+                            curCube.TopColor = Color.Red;
+                            curCube.BottomColor = Color.Transparent; 
+                        }
+                        else if (i == (m_Cublets.GetLength(0) - 1)) // the last row
+                        {
+                            curCube.TopColor = Color.Transparent; 
+                            curCube.BottomColor = Color.Blue; 
+                        }
+                        else // middle rows
+                        {
+                            curCube.TopColor = Color.Transparent;
+                            curCube.BottomColor = Color.Transparent;
+                        }
+
+                        if (j == 0) // the left most column
+                        {
+                            curCube.LeftColor = Color.Green;
+                            curCube.RightColor = Color.Transparent;
+                        }
+                        else if (j == (m_Cublets.GetLength(1) - 1)) // the right most column
+                        {
+                            curCube.LeftColor = Color.Transparent;
+                            curCube.RightColor = Color.Yellow;
+                        }
+                        else // middle column
+                        {
+                            curCube.LeftColor = Color.Transparent;
+                            curCube.RightColor = Color.Transparent;
+                        }
+
+                        if (k == 0) // the front most 
+                        {
+                            curCube.FrontColor = Color.White;
+                            curCube.BackColor = Color.Transparent;
+                        }
+                        else if (k == (m_Cublets.GetLength(2) - 1)) // the back most
+                        {
+                            curCube.FrontColor = Color.Transparent;
+                            curCube.BackColor = Color.White;
+                        }
+                        else // the middle
+                        {
+                            curCube.FrontColor = Color.Transparent;
+                            curCube.BackColor = Color.Transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}}}
+
+*Cublet.cs*
+{{{
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Drawing;
+
+namespace RubiksCubeLibrary
+{
+    public class Cublet
+    {
+        private Color m_Top, m_Bottom, m_Front, m_Back, m_Left, m_Right;
+
+        public Cublet() : this(Color.Transparent, Color.Transparent, 
+            Color.Transparent, Color.Transparent, Color.Transparent, 
+            Color.Transparent)
+        {
+        }
+
+        public Cublet(Color top, Color bottom, Color front,
+            Color back, Color left, Color right)
+        {
+            m_Top = top;
+            m_Bottom = bottom;
+            m_Front = front;
+            m_Back = back;
+            m_Left = left;
+            m_Right = right;
+        }
+
+        public Color TopColor
+        {
+            get { return m_Top; }
+            set { m_Top = value; }
+        }
+
+        public Color BottomColor
+        {
+            get { return m_Bottom; }
+            set { m_Bottom = value; }
+        }
+
+        public Color FrontColor
+        {
+            get { return m_Front; }
+            set { m_Front = value; }
+        }
+
+        public Color BackColor
+        {
+            get { return m_Back; }
+            set { m_Back = value; }
+        }
+
+        public Color LeftColor
+        {
+            get { return m_Left; }
+            set { m_Left = value; }
+        }
+
+        public Color RightColor
+        {
+            get { return m_Right; }
+            set { m_Right = value; }
+        }
+    }
+}
+}}}
+
