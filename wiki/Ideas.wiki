@@ -1,15 +1,19 @@
 #summary A compilation of preliminary ideas, good and otherwise.
 [MainPage]
 
-
-Steven's very rough cube [StevenCubeModel representation model]
-
+= Rough Models =
+  * Steven's cube [StevenCubeModel representation model].
+  * Chris's cube idea [PossibleCubeRep].
 
 = Modes =
  * Time Attack (competing based on real-time elapsed)
  * Move Battle (competing based on number of moves)
  * Point Match (competing based on points, explained later)
 
+= Networking =
+  * Creation of a UofL/Speed school game network.  This is to track user scores and information.
+  * Allow unlimited (if possible ?) connections for the ultimate in match play.
+  * Use client/server model (not P2P) for centralized control.
 
 = Global Game Parameters =
 _Global Game parameters can apply to any mode._
@@ -36,12 +40,5 @@ _Events to mix up a Rubik's Cube game, changing the game experience without chan
   * Point Of View shifts randomly (perhaps with a neat "dropped the cube" animation)
   * A cubelet becomes locked for 3 moves
   * Certain rotations are made by the computer (slow enough to follow and undo easily)
-
-
-
-
-
-
-
 
 [MainPage]
