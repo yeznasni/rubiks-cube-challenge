@@ -3,7 +3,7 @@
 
 = Rough Models =
   * Steven's cube [StevenCubeModel representation model].
-  * Chris's cube idea [PossibleCubeRep].
+  * Chris's cube [PossibleCubeRep idea].
 
 = Modes =
  * Time Attack (competing based on real-time elapsed)
