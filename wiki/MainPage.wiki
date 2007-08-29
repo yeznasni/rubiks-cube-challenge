@@ -7,8 +7,12 @@ This wiki is dedicated to the Rubik's Cube multiplayer game being written for CE
   * Chris Boyle
   * Chris Lockhart
   * Jason Spruill
-  * [IdeasOfSteven Steven Shofner]
+  * Steven Shofner
 
 = Potential References = 
  * [http://www.bluerosegames.com/brg/xna101.aspx BlueRose XNA 101 Tutorials]
  * [http://randomchaosuk.blogspot.com/ Randomchaos XNA engine]
+
+
+= Navigation =
+  * [Ideas]
