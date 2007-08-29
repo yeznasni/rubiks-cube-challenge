@@ -23,7 +23,7 @@ _Global Game parameters can apply to any mode._
   * Backdrop
   * Picture Cubelets
   * Color Duplication (opposite sides)
-
+  * "Cubes with guns" -- players' cubes can interact with each other
 = Single-Player Modes = 
   * Scenario (complete a starting configuration within a specified metric)
 
