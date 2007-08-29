@@ -4,7 +4,7 @@
 The following an idea for the representation of the cube that Steve has been kicking around inside his head (where there is lots of empty space to kick ideas around).
 
 [MainPage]
-[IdeasOfSteven]
+[Ideas]
 
 `char[row, column, face] cubeContents;`
 
