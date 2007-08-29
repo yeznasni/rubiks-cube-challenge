@@ -4,8 +4,9 @@
 
 This code could be possibly used to represent and manipulate the Rubik's cube.
 
-
 = Details =
+
+The cube has the ability to initialize but rotations have not been implemented.  This is to get a general idea of the representation before too much time is spent on a model that isn't even going to be used.
 
 *RubiksCube.cs*
 {{{
@@ -363,4 +364,3 @@ namespace RubiksCubeLibrary
     }
 }
 }}}
-
