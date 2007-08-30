@@ -9,10 +9,12 @@ This wiki is dedicated to the Rubik's Cube multiplayer game being written for CE
   * Jason Spruill
   * Steven Shofner
 
+= Navigation =
+  * [Ideas]
+  * [MajorSoftwarePhases Major Software Phases]
+  * [TeamOrganizationPlan Team Organization Plan]
+  * [SystemRequirements System Requirements]
+
 = Potential References = 
  * [http://www.bluerosegames.com/brg/xna101.aspx BlueRose XNA 101 Tutorials]
  * [http://randomchaosuk.blogspot.com/ Randomchaos XNA engine]
-
-
-= Navigation =
-  * [Ideas]
