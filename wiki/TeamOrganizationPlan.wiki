@@ -1,0 +1,5 @@
+#summary The documents contains the team organization plan.
+
+= Introduction =
+
+This document is empty.
