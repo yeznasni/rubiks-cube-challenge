@@ -1,4 +1,4 @@
-#summary The documents contains the team organization plan.
+#summary This document contains the team organization plan.
 
 = Introduction =
 
