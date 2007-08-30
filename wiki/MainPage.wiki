@@ -13,7 +13,7 @@ This wiki is dedicated to the Rubik's Cube multiplayer game being written for CE
   * [Ideas]
   * [MajorSoftwarePhases Major Software Phases]
   * [TeamOrganizationPlan Team Organization Plan]
-  * [SystemRequirements System Requirements]
+  * [SystemsRequirements System Requirements]
 
 = Potential References = 
  * [http://www.bluerosegames.com/brg/xna101.aspx BlueRose XNA 101 Tutorials]
