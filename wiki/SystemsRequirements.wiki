@@ -1,0 +1,5 @@
+#summary This page contains the System Requirements for the Rubiks Cube application.
+
+= Introduction =
+
+The document is empty currently.  
