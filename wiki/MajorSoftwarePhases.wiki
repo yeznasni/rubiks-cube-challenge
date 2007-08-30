@@ -1,4 +1,4 @@
-#summary This documents contains the major software phases.
+#summary This document contains the major software phases.
 
 = Introduction =
 
