@@ -1,5 +1,0 @@
-#summary This page contains the System Requirements for the Rubik's Cube application.
-
-= Introduction =
-
-The document is empty currently. The format of this document is described by the [SystemsRequirementsFormat IEEE format].
