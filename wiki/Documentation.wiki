@@ -2,4 +2,4 @@
 
 = Documentation =
 
-  *  [http://rubiks-cube-challenge.googlecode.com/svn/trunk/documentation/ Software Requirements Specification]
+  *  [http://rubiks-cube-challenge.googlecode.com/svn/trunk/documentation/rcube_srs.doc Software Requirements Specification]
