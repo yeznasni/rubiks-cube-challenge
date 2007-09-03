@@ -31,7 +31,7 @@ These titles will be assigned to each member for a particular task.
 
 The milestones document will make sure that no one person will have too much responsibility during a development phase.
 
-  * Networking - 
+  * Networking - Handles client/server events and interfaces with the core.
     * Analyst - Chris B.
     * Tester - Jason
     * Designer - Chris B.
