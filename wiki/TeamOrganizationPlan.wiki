@@ -31,42 +31,49 @@ These titles will be assigned to each member for a particular task.
 
 The milestones document will make sure that no one person will have too much responsibility during a development phase.
 
-  * Networking 
+  * Networking - 
     * Analyst - Chris B.
     * Tester - Jason
     * Designer - Chris B.
     * Programmer - Chris B.
     * Librarian - Chris B.
 
-  * Abstract Input 
+  * Abstract Input - Take inputs from devices and translate to meaningful input for the core.
     * Analyst - Jason
     * Tester - Chris B.
     * Designer - Jason
     * Programmer - Jason
     * Librarian - Jason
 
-  * AI 
+  * AI - Interfaces to virtual inputs, impersonates a real live user.  
     * Analyst - Chris L.
     * Tester - Chris L.
     * Designer - Chris B.
     * Programmer - Chris B.
     * Librarian - Chris B.
 
-  * Graphics Interface
+  * Scene Management - GUI, Cube Rotations, Camera, Drawing 
     * Analyst - Chris L.
     * Tester - Steven
     * Designer - Chris L./Steven
     * Programmer - Chris L.
     * Librarian - Chris L.
 
-  * Game Flow (States, etc.) 
+  * Game States - Manages the game modes.
     * Analyst - Steven
     * Tester - Chris L.
     * Designer - Chris L./Steven
     * Programmer - Steven
     * Librarian - Steven
 
-  * Sound
+  * Core Game Logic - Deals with the game loop and mediates the game services.
+    * Analyst - Chris L.
+    * Tester - Steven
+    * Designer - Chris L./Steven
+    * Programmer - Chris L.
+    * Librarian - Chris L.
+
+  * Sound - Manages the sound based upon the current game state.
     * Analyst - Jason
     * Tester - Chris B.
     * Designer - Jason
