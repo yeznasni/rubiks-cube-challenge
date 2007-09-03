@@ -14,10 +14,8 @@ While the team is democratic in nature, it still has structure and each person s
 
 People in the group with specialized knowledge should take a special leadership role.
 
-  * Graphics Guru
-  * Networking Guru
-  * GUI Guru
-  * External Device Guru
+  * Graphics Guru - Chris L.
+  * Networking Guru - Chris B.
 
 == Other Titles ==
 
