@@ -2,4 +2,75 @@
 
 = Introduction =
 
-This document is empty.
+The team organization plan is based off Weinberg's ego-less approach.  This approach holds everyone equally responsible and allows the team structure to be more democratic.  While this approach complicates the number of line of communication, this can be minimized with a small group.  Also due to the high degree of uncertainty of this project, the democratic approach is much better.
+
+The four person group in this project only gives 6 lines of communication which may still lead to confusion.  This can be solved with a centralized form of communication like a Wiki.  This team has and is actively using a Wiki along with Email to discuss group issues.
+
+= Roles =
+
+While the team is democratic in nature, it still has structure and each person still serves a purpose.
+
+== Technical Leaders ==
+
+People in the group with specialized knowledge should take a special leadership role.
+
+  * Graphics Guru
+  * Networking Guru
+  * GUI Guru
+  * External Device Guru
+
+== Other Titles ==
+
+These titles will be assigned to each member for a particular task.
+
+  * Analyst
+  * Tester
+  * Designer 
+  * Programmer
+  * Librarian 
+
+= The Tasks =
+
+The milestones document will make sure that no one person will have too much responsibility during a development phase.
+
+  * Networking 
+    * Analyst
+    * Tester
+    * Designer 
+    * Programmer
+    * Librarian 
+
+  * Abstract Input 
+    * Analyst
+    * Tester
+    * Designer 
+    * Programmer
+    * Librarian 
+
+  * AI 
+    * Analyst
+    * Tester
+    * Designer 
+    * Programmer
+    * Librarian 
+
+  * Graphics Interface
+    * Analyst
+    * Tester
+    * Designer 
+    * Programmer
+    * Librarian 
+
+  * Game Flow (States, etc.) 
+    * Analyst
+    * Tester
+    * Designer 
+    * Programmer
+    * Librarian 
+
+  * Sound
+    * Analyst
+    * Tester
+    * Designer 
+    * Programmer
+    * Librarian 
