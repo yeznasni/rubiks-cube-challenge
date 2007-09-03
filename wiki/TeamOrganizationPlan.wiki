@@ -79,3 +79,7 @@ The milestones document will make sure that no one person will have too much res
     * Designer - Jason
     * Programmer - Jason
     * Librarian - Jason
+
+= Contingency Plan =
+  * In the case that a Designer/Programmer will not be able to fulfill his duties, the tester will take over that role.  
+  * In the case that a tester will not be able to fulfill his duties, another project member will have to take over that role.  
