@@ -34,43 +34,43 @@ These titles will be assigned to each member for a particular task.
 The milestones document will make sure that no one person will have too much responsibility during a development phase.
 
   * Networking 
-    * Analyst
-    * Tester
-    * Designer 
-    * Programmer
-    * Librarian 
+    * Analyst - Chris B.
+    * Tester - Jason
+    * Designer - Chris B.
+    * Programmer - Chris B.
+    * Librarian - Chris B.
 
   * Abstract Input 
-    * Analyst
-    * Tester
-    * Designer 
-    * Programmer
-    * Librarian 
+    * Analyst - Jason
+    * Tester - Chris B.
+    * Designer - Jason
+    * Programmer - Jason
+    * Librarian - Jason
 
   * AI 
-    * Analyst
-    * Tester
-    * Designer 
-    * Programmer
-    * Librarian 
+    * Analyst - Chris L.
+    * Tester - Chris L.
+    * Designer - Chris B.
+    * Programmer - Chris B.
+    * Librarian - Chris B.
 
   * Graphics Interface
-    * Analyst
-    * Tester
-    * Designer 
-    * Programmer
-    * Librarian 
+    * Analyst - Chris L.
+    * Tester - Steven
+    * Designer - Chris L./Steven
+    * Programmer - Chris L.
+    * Librarian - Chris L.
 
   * Game Flow (States, etc.) 
-    * Analyst
-    * Tester
-    * Designer 
-    * Programmer
-    * Librarian 
+    * Analyst - Steven
+    * Tester - Chris L.
+    * Designer - Chris L./Steven
+    * Programmer - Steven
+    * Librarian - Steven
 
   * Sound
-    * Analyst
-    * Tester
-    * Designer 
-    * Programmer
-    * Librarian 
+    * Analyst - Jason
+    * Tester - Chris B.
+    * Designer - Jason
+    * Programmer - Jason
+    * Librarian - Jason
