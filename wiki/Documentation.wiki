@@ -3,4 +3,4 @@
 = Documentation =
 
   *  [http://rubiks-cube-challenge.googlecode.com/svn/trunk/documentation/rcube_srs.doc Software Requirements Specification]
-  * [http://rubiks-cube-challenge.googlecode.com/svn/trunk/documentation/rcube_tro.doc Team Organization Requirement]
+  * [http://rubiks-cube-challenge.googlecode.com/svn/trunk/documentation/rcube_tro.doc Team Requirements Organization]
