@@ -17,7 +17,7 @@ Milestones will be accumulated weekly.  Since a degree of urgency is needed on t
      * Sending UDP packets to client and back to server
      * Add checksum to packets for verification
 
-==Week of Sept 16 - Sept 22
+==Week of Sept 16 - Sept 22==
 
 ==Week of Sept 23 - Sept 29==
 
