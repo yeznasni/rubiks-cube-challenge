@@ -1,0 +1,40 @@
+#summary This page will contain the short-term milestones for the project.
+
+= Introduction =
+
+Milestones will be accumulated weekly.  Since a degree of urgency is needed on the project, the weekly milestones are needed to make sure the group stays on track.
+
+
+= Details =
+
+Week of Sept 9 - Sept 15
+  * Basic Game Engine
+     * Scene Managements
+     * Picking
+     * Etc.
+  * Basic Client/Server Functionality
+     * Serialization of Messages
+     * Sending UDP packets to client and back to server
+     * Add checksum to packets for verification
+
+Week of Sept 16 - Sept 22
+
+Week of Sept 23 - Sept 29
+
+Week of Sept 30 - Oct 6
+
+Week of Oct 7 - Oct 13
+
+Week of Oct 14 - Oct 20
+
+Week of Oct 21 - Oct 27
+
+Week of Oct 28 - Nov 3
+
+Week of Nov 4 - Nov 10
+
+Week of Nov 11 - Nov 17
+
+Week of Nov 18 - Nov 24
+
+Week of Nov 25 - Dec 1
