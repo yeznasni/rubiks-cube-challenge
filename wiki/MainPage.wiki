@@ -8,8 +8,3 @@ This wiki is dedicated to the Rubik's Cube multiplayer game.
   * Chris Lockhart
   * Jason Spruill
   * Steven Shofner
-
-= Navigation =
-  * [Ideas]
-  * [MajorSoftwarePhases Major Software Phases]
-  * [Documentation]
